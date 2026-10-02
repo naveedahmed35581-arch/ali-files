@@ -2,9 +2,9 @@
   "name": "inconnu-boy",
   "version": "2.0.0",
   "description": "WhatsApp Bot Base",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
    "@whiskeysockets/baileys": "^7.0.0-rc.13",
