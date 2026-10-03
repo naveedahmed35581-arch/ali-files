@@ -1,0 +1,21 @@
+{
+  "name": "Ali-Md-mini-bot",
+  "description": "Javascript WhatsApp bot by Ali Md mini bot",
+  "logo": "https://i.ibb.co/PvCxgJjh/491f2cf33ce1.jpg",
+  "keywords": [
+    "Ali-Md-mini-bot"
+  ],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "MONGODB_URI": {
+      "description": "MongoDB connection string for database storage",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
